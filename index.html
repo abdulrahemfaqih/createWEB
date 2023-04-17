@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      alert('Selamat datang, di website ini anda dapat menginputkan tag html beserta isinya lalu inputan yang anda masukkan dapat tercetak di browser')
+      let tanya = true
+      while (tanya) {
+        const input = prompt("inputkan tag yang ada nginkan beserta isinya");
+        document.writeln(`${input}`);
+        tanya = confirm('apakah ingin menginputkan lagi?')
+      }
+    </script>
+  </body>
+</html>
